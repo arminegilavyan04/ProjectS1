@@ -68,27 +68,27 @@ int main() {
 
     int value, most;
     median(&head, &most, &value);
-    printf("The best sold is %dMP and it was sold %d times\n", value, most);
+    printf("The best sold drone is with %dMP and it was sold %d times\n", value, most);
 
     double n, m;
     data1_size(&head, &n);
     data2_size(&head_s, &m);
-    printf("data1 size is %.lf\n", n);
-    printf("data2 size is %.lf\n", m);
+    printf("The size of data1 is %.lf\n", n);
+    printf("The size of data2 is %.lf\n", m);
 
     double mean, mean_s;
     data1_mean(&head, &mean, n);
     data2_mean(&head_s, &mean_s, n);
-    printf("Mean of data1 is %lf\n", mean);
-    printf("Mean of data2 is %lf\n", mean_s);
+    printf("The mean of data1 is %lf\n", mean);
+    printf("The mean of data2 is %lf\n", mean_s);
 
     double variance;
     variances(&head, &variance, mean, n);
-    printf("Variance of data1 is %lf\n", variance);
+    printf("The variance of the data1 is %lf\n", variance);
 
     double standard_dev;
     st_dev(&standard_dev, variance);
-    printf("Standard deviation of data1 is %lf\n", standard_dev);
+    printf("The standard deviation of the data1 is %lf\n", standard_dev);
 
     double variation_coef;
     var_coef(standard_dev, variance, &variation_coef);
