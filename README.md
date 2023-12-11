@@ -38,9 +38,9 @@ Main Function: Orchestrates the overall flow of the program.
 
 ## Key features
 
-Statistical Analysis:Accurate calculation of mean, median, variance, standard deviation, and confidence intervals for drone manufacturing data.
+Statistical Analysis: Accurate calculation of mean, median, variance, standard deviation, and confidence intervals for drone manufacturing data.
 
-Binary Search Trees (BSTs):Efficient organization and management of data using BSTs for both megapixel values (data1) and sales frequency (data2).
+Binary Search Trees (BSTs): Efficient organization and management of data using BSTs for both megapixel values (data1) and sales frequency (data2).
 
 ## Contributing 
 
