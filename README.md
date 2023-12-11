@@ -14,7 +14,7 @@ Linux/Unix environment (for file operations)
 
 ## Installation
 
-Clone the repository: git clone https: //github.com/arminegilavyan04/ProjectS1
+Clone the repository: git clone https: [//github.com/arminegilavyan04/ProjectS1](https://github.com/arminegilavyan04/ProjectS1)
 
 Compile the code: gcc project.c -lm -o project
 
